@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XYCategroy"
+  s.name         = "XYCategory"
   s.version      = "0.0.1"
-  s.summary      = "工具类category"
+  s.summary      = "工具类Category"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                        share category
+                        share Category
                    DESC
 
   s.homepage     = "https://github.com/Mayxueyin/XYCategory"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Categroy", "Categroy/Classes/**/*.{h,m}"
+  s.source_files  = "Category", "Category/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
