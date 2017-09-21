@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                  share category
+                        share category
                    DESC
 
   s.homepage     = "https://github.com/Mayxueyin/XYCategory"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Categroy", "Categroy/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Categroy"
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
