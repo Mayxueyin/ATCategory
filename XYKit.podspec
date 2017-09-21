@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XYKit"
   s.version      = "0.0.1"
-  s.summary      = "A short description of XYKit."
+  s.summary      = "工具类"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    this project provide all kinds of categories for iOS developer
                    DESC
 
   s.homepage     = "https://github.com/Mayxueyin/XYKit"
@@ -129,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
