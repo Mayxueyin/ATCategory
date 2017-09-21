@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XYKit"
+  s.name         = "XYCategory"
   s.version      = "0.0.1"
   s.summary      = "工具类"
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this project provide all kinds of categories for iOS developer
                    DESC
 
-  s.homepage     = "https://github.com/Mayxueyin/XYKit"
+  s.homepage     = "https://github.com/Mayxueyin/XYCategory"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Mayxueyin/XYKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Mayxueyin/XYCategory.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
